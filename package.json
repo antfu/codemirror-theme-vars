@@ -20,7 +20,7 @@
   },
   "files": [
     "base.css",
-    "marker.css",
+    "to-prism.css",
     "index.js",
     "index.mjs",
     "themes"
