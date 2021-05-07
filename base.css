@@ -172,3 +172,7 @@
 .cm-s-vars .CodeMirror-matchingbracket {
   text-decoration: underline;
 }
+
+.cm-s-vars .CodeMirror-cursor {
+  border-left: 1px solid currentColor;
+}
