@@ -1,7 +1,7 @@
 {
   "name": "codemirror-theme-vars",
   "description": "A customizable CodeMirror theme using CSS variables",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "scripts": {
     "release": "npx bumpp --commit --tag --push && npm publish"
   },
