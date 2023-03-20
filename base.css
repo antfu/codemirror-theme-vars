@@ -109,10 +109,6 @@
   color: var(--cm-keyword);
 }
 
-.cm-s-vars .cm-operator {
-  color: var(--cm-punctuation);
-}
-
 .cm-s-vars .cm-variable,
 .cm-s-vars .cm-variable-2,
 .cm-s-vars .cm-variable-3,
@@ -146,7 +142,7 @@
 }
 
 .cm-s-vars .cm-tag {
-  color: var(--cm-property);
+  color: var(--cm-builtin);
 }
 
 .cm-s-vars .cm-meta {
@@ -167,6 +163,11 @@
 
 .cm-s-vars .cm-error {
   color: var(--prism-deleted);
+}
+
+.cm-s-vars .cm-operator,
+.cm-s-vars .cm-bracket {
+  color: var(--cm-punctuation);
 }
 
 .cm-s-vars .CodeMirror-matchingbracket {
