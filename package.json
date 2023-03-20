@@ -1,7 +1,7 @@
 {
   "name": "codemirror-theme-vars",
   "description": "A customizable CodeMirror theme using CSS variables",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "scripts": {
     "lint": "eslint --ext .",
     "release": "bumpp && npm publish"
